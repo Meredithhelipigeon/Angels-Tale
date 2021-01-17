@@ -12,15 +12,16 @@ For our frontend, we utilized Voiceflow for our chat-based user interface in whi
 
 ## Challenges we ran into
 There are several challenges we ran into.
-
 - The design of the workflow of the application has been problematic. The culprit is Voiceflow's inability to obtain user-uploaded audio files, and thus we have to implement another frontend application using Anvil.works, to obtain these user input necessary to generate the videos.
 - It is difficult to adjust the complexity of the user interface to best fit the ability of the audience (children).
 - With three components in our workflow, the process of building APIs in both our backend and Anvil.works, as well as connecting the API calls and handling asynchronizations when the videos are generated, is complex and time-consuming.
 - The AI models that we utilized are pre-trained. This makes it challenging to handle some of our input data, which may be of great difference to the data that the model is trained on. Specifically, we have observed that it is very challenging for the audio model to inference on extremely long or short sentences, or with difficult vocabularies.
+
 ## Accomplishments that we're proud of
 - We have successfully leveraged three platforms (Voiceflow, Anvil.works and Google Colab) and integrated them into a single application without any previous experience with them.
 - We have manipulated audio and video files programatically with various actions (resize, streaming, merging, synthesizing, trimming, fading effects, etc).
 - We leveraged Amazon's Alexa Settings API from Alexa Skills Kit in order to track the user's device and its time zone. With the user time zone, we designed a user-friendly feature which takes time zone of the user's device into consideration, and only plays the stories for the children in a certain time interval of the day (from 8AM to 9PM).
+
 ## What's next for Angel's Tale
 - Angle's Tale is a web application which has high scalability. Specifically, with the backend currently hosting on Google Colab due to the time constraint of the hackathon, we are looking forward to package the backend into a docker container and host the container on cloud services such as AWS.
 - Also, currently we directly use the pre-trained weights for the AI model to inference on user input. In the future, the ML model can be improved if it is trained on more stories with longer sentences and more difficult vocabularies.
@@ -31,10 +32,14 @@ There are several challenges we ran into.
 - Machine-learning
 - Python
 - Tensorflow
-- Ui-ux
+- UI/UX
 - Voiceflow
+- Http request / response
+- Compound sound
 
 ## Link
 [Devpost link](https://devpost.com/software/angel-s-tale)
 
 [Anvil link](https://anvil.works/build#clone:2XLKAA7XUZFON6SX=CINSY6H6VCZDHYH4B7664DA2)
+
+[Youtube link]()
