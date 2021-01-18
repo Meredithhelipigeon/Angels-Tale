@@ -1,4 +1,7 @@
 # Angels-Tale
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/j24nOpfk6VY/default.jpg)](https://www.youtube.com/watch?v=j24nOpfk6VY)
+
 ## Inspiration
 As the pandemic draws cities into lockdowns and hospitals into turmoils, we are horrified when watching the social media posts of the frontline health workers, expressing their exhaustion at work, their lack of communication with families, and their desperate need to re-unite with their children. These melancholic posts have driven us to consider potential solutions to reconnect frontline parents with their kids.
 
